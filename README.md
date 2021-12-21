@@ -1,2 +1,5 @@
 # adventOfCode2021
-Advent calendar of small programming puzzles solved in JS
+
+This folder contains my code for the Advent of Code 2021 coding challange in JavaScript.
+
+https://adventofcode.com/2021/
