@@ -12,3 +12,5 @@ https://adventofcode.com/2021/
 - day 6: Lanternfish - https://adventofcode.com/2021/day/6
 - day 7: The Treachery of Whales - https://adventofcode.com/2021/day/7
 - day 8: Seven Segment Search - https://adventofcode.com/2021/day/8
+- day 9: Smoke Basin - https://adventofcode.com/2021/day/9
+- day 10: Syntax Scoring - https://adventofcode.com/2021/day/10
