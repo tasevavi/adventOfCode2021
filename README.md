@@ -14,3 +14,7 @@ https://adventofcode.com/2021/
 - day 8: Seven Segment Search - https://adventofcode.com/2021/day/8
 - day 9: Smoke Basin - https://adventofcode.com/2021/day/9
 - day 10: Syntax Scoring - https://adventofcode.com/2021/day/10
+- day 11: Dumbo Octupus - https://adventofcode.com/2021/day/11
+- day 12: Passage Pathing - https://adventofcode.com/2021/day/12
+- day 13: Transparent Origami - https://adventofcode.com/2021/day/13
+- day 14: Extended Polymerization - https://adventofcode.com/2021/day/14
