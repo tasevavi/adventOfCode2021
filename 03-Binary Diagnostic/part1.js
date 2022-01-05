@@ -1,7 +1,10 @@
-import {input} from 'input.mjs';
+const fs = require('fs');
 
 function solve(input) {
-    let arr = input.split('\n);
+    const input = fs.readFileSync('input.txt')
+        .toString()
+        .split('\n');
+
     let gamma = '';
     let epsilon = '';
 
