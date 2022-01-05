@@ -1,9 +1,12 @@
-import {input} from './input.mjs';
+const fs = require('fs');
 
-function solve(input) {
-    let arr = input.split('\n');
-    let oxArr = arr;
-    let co2Arr = arr;
+function solve() {
+    const input = fs.readFileSync('input.txt')
+        .toString()
+        .split('\n');
+
+    let oxArr = input;
+    let co2Arr = input;
     let ox = findNumber(oxArr, findCount, priority = 0);
     let co2 = findNumber(co2Arr, findCount, priority = 1);
     
@@ -51,4 +54,4 @@ function solve(input) {
     let result = ox * co2;
     console.log(result);
 }
-solve(input);
+solve();
