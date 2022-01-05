@@ -1,13 +1,18 @@
-import {input} from './input.mjs';
+const fs = require('fs');
 
-function solve(input) {
-    let arr = input.split('\n');
+function solve() {
+
+    const input = fs.readFileSync('input.txt')
+        .toString()
+        .split('\n')
+        .map(line => line.trim());
+    
     let horizontal = 0;
     let depth = 0;
     let aim = 0;
     
-    for (let i = 0; i < arr.length; i++) {
-        let [command, unit] = arr[i].split(' ');
+    for (let i = 0; i < input.length; i++) {
+        let [command, unit] = input[i].split(' ');
         switch (command) {
             case 'forward': 
                 horizontal += Number(unit);
@@ -19,7 +24,8 @@ function solve(input) {
                 break;
         }
     }
+    
     console.log(horizontal * depth);
 }
 
-solve(input);
+solve();
