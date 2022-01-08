@@ -18,3 +18,4 @@ https://adventofcode.com/2021/
 - day 12: Passage Pathing - https://adventofcode.com/2021/day/12
 - day 13: Transparent Origami - https://adventofcode.com/2021/day/13
 - day 14: Extended Polymerization - https://adventofcode.com/2021/day/14
+- day 15: Chiton - https://adventofcode.com/2021/day/15
